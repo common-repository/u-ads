@@ -1,0 +1,100 @@
+#uads_box {
+    /* === uads Container === */
+    text-align: left;
+    background-color: #fff;
+    bottom:0px; /* distance from window bottom edge */
+
+    position:fixed;
+    z-index:10000000;    
+    width: 260px;
+    padding: 10px 20px 10px 10px;
+    border-top: 2px solid #000;
+    border-left: 1px solid #f0f0f0;
+    -moz-box-shadow: 0 4px 10px #666;
+    -webkit-box-shadow: 0 4px 10px #666;
+    box-shadow: 0 4px 10px #666;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Color=#cccccc, direction=270, strength=7)";
+    filter: progid:DXImageTransform.Microsoft.Shadow(Color=#cccccc, direction=270, strength=7);
+    _position: absolute;
+    _top: 0;
+}
+
+#uads_box h6 {
+    /* === "MORE IN" === */
+    text-transform: uppercase;
+    font-size: 10px;
+    font-weight: bold;
+    font-family: arial,helvetica,sans-serif;
+    color: inherit;
+    
+    margin:0 0 5px 0;
+    padding:0;   
+}
+
+#uads_box h6 a {
+    /* === Category Link === */
+}
+#uads_box h6 a:hover {
+    /* === Category Link: mouse over === */
+}
+#uads_box h6 a:visited {
+    /* Category Link: visited */
+}
+
+#uads_box h6 .num {
+    /* === "(1 of 5 ARTICLES)" === */
+    font-size: inherit;
+    font-weight:normal;
+    font-family: inherit;
+    color:#888;
+}
+
+#uads_box .uads_excerpt {
+    /* === Container for Title, Thumbnail and Excerpt === */
+    text-align:justify;
+}
+
+#uads_box .uads_excerpt p {
+    /* === Excerpt === */
+    overflow:hidden;
+    margin:0
+}
+
+#uads_box .uads_excerpt p a {
+    /* === Previous Post Link === */
+}
+
+#uads_box .uads_excerpt p a:hover {
+    /* === Previous Post Link: mouse over === */
+}
+
+#uads_box .uads_excerpt p a:visited {
+    /* === Previous Post Link: visited === */
+}
+
+#uads_box .uads_thumb {
+    /* === Thumbnail Image === */
+    float:left;
+    margin:5px 20px 0 0;
+    border: 0;
+}
+
+#uads_box button {
+    /* === Close Button === */
+    border: none;
+    padding: 0;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    width: 13px;
+    height: 13px;
+    background: #fff url('close_window.gif') no-repeat 0 0;
+    text-indent: -999em;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+#uads_box .widget > div {
+    border: none;
+    padding: 0 !important;
+}
